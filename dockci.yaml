@@ -1,2 +1,4 @@
 dependencies:
-  helloworld-echoservice: echoservice
+  helloworld-echoservice:
+    alias: echoservice
+    cmd: ["run"]
