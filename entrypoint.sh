@@ -5,7 +5,7 @@ ci)
     exit $?
     ;;
 *)
-    echo "Unknown command"
+    echo "Unknown command: $1"
     exit 1
     ;;
 esac
